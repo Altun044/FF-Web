@@ -1,0 +1,71 @@
+body {
+    background-image: url("../image/background.jpg");
+    background-size: cover;
+    font-family: Arial, Helvatica, 'Gill Sans' sans-serif;
+}
+ 
+ 
+.icon {
+    width: 180px;
+    height: 180px;
+    margin: auto;
+}
+ 
+.icon img {
+    width: 180px;
+    height: 180px;
+}
+ 
+.menu {
+   
+    display: flex;
+    width: 60%;
+    background-color: rgba(24, 21, 21, 0.479);
+    justify-content: center;
+    margin: auto;
+    text-transform: uppercase;
+}
+ 
+.menu a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+}
+ 
+.menu a:hover {
+    background-color: rgba(0, 0, 0, 0.781);
+}
+ 
+.main-word {
+    color: white;
+    font-size: 55px;
+    text-align: center;
+}
+ 
+.page-text {
+    color: white;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+ 
+.page-reservation {
+    color: white;
+    text-align: center;
+}
+ 
+.map {
+    display: block;
+    width: 50%;
+    height: 150px;
+    margin: 10px auto;
+}
+ 
+.footer {
+    color: white;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(24, 21, 21, 0.781);
+    padding: 25px 50px;
+}
